@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+</head>
+
+<body>
+    <div class="login_container">
+        <h2>Sign up</h2>
+        <form onsubmit="submitReg(event)">
+            <div class="login_content">
+                <div class="login_input">
+                    <label for="reg_name">Name</label>
+                    <input reguired id="reg_name" placeholder="sitiago@gmail.com" type="text">
+                </div>
+                <div class="login_input">
+                    <label for="reg_email">Email</label>
+                    <input reguired id="reg_email" placeholder="sitiago@gmail.com" type="email">
+                </div>
+                <div class="login_input">
+                    <label for="reg_pass">Password</label>
+                    <input reguired id="reg_pass" placeholder="********" type="password">
+                </div>
+                <div class="login_input">
+                    <label for="reg_re_pass">REpassword</label>
+                    <input reguired id="reg_re_pass" placeholder="sitiago@gmail.com" type="password">
+                </div>
+                <p class="reg_err"></p>
+                <a href="#">Forgot password</a>
+            </div>
+            <button type="submit" class="enterance_reg">Sign up</button>
+        </form>
+            <button class="enterance_go_log">Go login</button>
+
+    </div>
+
+    <script src="../data.js"></script>
+    <script src="register.js"></script>
+</body>
+
+</html>

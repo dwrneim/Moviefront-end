@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "title":"Jumanji",
+        "video":"../videos/JUMANJI_ THE NEXT LEVEL - Official Trailer (HD).mp4"
+    },
+    {
+        "id":2,
+        "title":"Kraven:The hunter",
+        "video":"../videos/KRAVEN THE HUNTER - Teaser Trailer _ Marvel Studios & Sony Pictures - Aaron Taylor Johnson (2023).mp4"
+    },
+    {
+        "id":3,
+        "title":"Breaking Bad",
+        "video":"../videos/Breaking Bad - Trailer Legendado (SPOILER ALERT).mp4"
+    }
+]
